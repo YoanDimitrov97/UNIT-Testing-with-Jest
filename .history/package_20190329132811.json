@@ -1,0 +1,15 @@
+{
+  "name": "jesttest",
+  "version": "1.0.0",
+  "description": "dd",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "int-test": "mocha --require babel-core/register --recursive test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.5.0"
+  }
+}
